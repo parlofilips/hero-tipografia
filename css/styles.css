@@ -1,23 +1,91 @@
-body { 
-    box-sizing: border-box; 
+* {
+    box-sizing: border-box;
     margin: 0;
-    padding: 0; 
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    height: 1000px;
-    font-family:'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    background-color: #232325;;
+    font-family: "Outfit", "Carrois Gothic", "Gothic A1" sans-serif;
 }
 
 .hero {
+    height: 80vh;
+    display: block;
+    align-items: center;
+    display: block;
+    background-color: #232325;
+    color: rgb(15, 15, 15);
     text-align: center;
-    background-color: #11151f;
-    color: white;
-    width: max-content;
-    height: 380px;
-    margin: auto;
-    box-shadow: 0px 0px 20px rgb(131, 129, 129);
-    border-radius: 7px;
-    text-align: center;
-    font-size: 12px;
+}
+
+.box-tag {
+    display: inline-block;
+    margin: 40px;
+    padding: 30px;
+    background-color: #232325;
+}
+
+.box-titulo {
+    margin: 40px;
+    padding: 30px;
+    background-color: #232325;
+}
+
+.titulo {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #232325;
+    font-family: "Outfit";
+}
+
+.subtitulo {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+    font-weight: 300;
+    font-family: "Gothic A1";
+    background-color: #232325;
+}
+
+.box-botoes {
+    background-color: #232325;
+    display: inline-block;
+}
+
+.box-aviso {
+    margin: 40px;
+    padding: 30px;
+    display: none;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #19b840;
+    color: #ffffff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn-principal {
+    display: block;
+}
+
+.btn-secundario {
+    display: inline-block;
+}
+
+.tag {
+    background-color: rgba(25, 184, 65, 0.315);
+    padding: 5px;
+    border-radius: 20px;
+    color: rgb(30, 190, 73);
+}
+
+.aviso-oculto {
+    color: rgb(190, 30, 30);
+    background-color: rgba(184, 25, 25, 0.315);
+    padding: 20px;
+    border-radius: 20px;
 }
